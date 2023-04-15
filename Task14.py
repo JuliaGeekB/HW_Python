@@ -6,10 +6,10 @@
 number=int(input('Введите число N: '))
 
 i=0
-element=1
+
 
 while 2**i <= number:
-    element = 2**i
-    print(element, end=" ")
+    
+    print(2**i, end=" ")
     i+=1
 
